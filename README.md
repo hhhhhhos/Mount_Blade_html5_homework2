@@ -7,7 +7,7 @@ https://hhhhhhos.github.io/Mount_Blade_html5_homework2/
 
 
 <br>
-<img src="pic1.jpg" style="width: 200px; height: 200px">
+<img src="pic01.jpg" style="width: 200px; height: 200px">
 
 
 
