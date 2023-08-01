@@ -118,6 +118,24 @@ footer{
 	height: 940px;
 	padding: 20px;
 	}
+@media only screen and (max-height: 1000px) {
+	#wrapper{
+		background-image: url(./images/bg03.jpg);
+		background-size: 100% 100%;
+		width:80%;
+		position:absolute;
+		/* 水平垂直居中 */
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: 10px auto;
+		max-width: 900px;
+		min-width: 900px;
+		height: 940px;
+		padding: 20px;
+		}
+}
 #content1{
 	background-image: url(./images/img005.jpg);
 	background-size: 100% 100%;
