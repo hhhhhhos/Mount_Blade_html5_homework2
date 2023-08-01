@@ -1,0 +1,386 @@
+button{
+	margin-top: -450px;
+	margin-left: 260px;
+	position: absolute;
+	left:450px;
+}
+.nivoSlider img{
+	width: 500px;
+	height: 300px;
+}
+body{
+	background-image: url(./images/bg02.jpg);
+	background-repeat:repeat;
+	color: #000033;
+	font-family:Verdana,Arial,sans-serif;
+}
+body * { 
+	box-sizing: border-box; 
+}
+header{
+	color:#000000;
+	text-align:left;
+	height: 120px;
+	display:flex;
+	}
+h1{
+	padding:20px;
+	filter: drop-shadow(0.35rem 0.35rem 0.2rem rgb(66, 66, 68));
+	}
+
+nav{
+	background-image: url(./images/bg04.jpg);
+	background-size: 100% 100%;
+	font-weight:bolder;
+	text-align: left;
+	padding: 25px; 
+	padding-left: 40px;
+	float: left;
+	height: 680px;
+	width: 180px;
+	margin-left:30px;
+	box-shadow:
+    1px 1px 0 0 hsl(0, 9%, 30%),
+    2px 2px 0 0 hsl(0, 9%, 30%),
+    3px 3px 0 0 hsl(0, 9%, 30%),
+    4px 4px 0 0 hsl(0, 9%, 30%),
+    5px 5px 0 0 hsl(0, 9%, 30%);
+}
+nav a{ 
+	text-decoration: none;
+	display: block;
+	margin-top: 15px;
+	filter: drop-shadow(0.35rem 0.35rem 0.2rem rgb(66, 66, 68));
+}
+nav a:link{
+	color:#000033;
+}
+nav a:visited{
+	color: #000033;
+}
+nav a:hover{
+	color: #FFFFFF;
+}
+main{
+	margin-left: 220px;
+	margin-right: 40px;
+	padding: 20px;	
+}
+h2{
+	 
+	margin-top: 0;
+	padding-top: 20px;
+}
+h3{
+	text-align: center;
+
+}
+h4{
+	width: 150px;
+	height: 40px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-top: 13px;
+	text-align: center;
+	background-image: url(./images/img005.jpg);
+	background-size: cover;
+}
+footer{
+	font-size:.60em;
+	font-style: oblique;
+	text-align: center;
+	padding: 10px;
+	background-image: url(./images/bg05.jpg);
+	background-size: 100% 100%;
+	margin-top: 40px;
+}
+#img01{
+	background-image: url(./images/img004.jpg);
+	background-size: 100% 100%;
+	height: 80px;
+	width: 380px;
+	margin-top: 30px;
+	filter: drop-shadow(0.35rem 0.35rem 0.2rem rgb(66, 66, 68));
+}
+#wrapper{
+	background-image: url(./images/bg03.jpg);
+	background-size: 100% 100%;
+	width:80%;
+	position:absolute;
+	/* 水平垂直居中 */
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 900px;
+	min-width: 900px;
+	height: 940px;
+	padding: 20px;
+	}
+#content1{
+	background-image: url(./images/img005.jpg);
+	background-size: 100% 100%;
+	width: 560px;
+	height: 350px;
+	padding: 20px;
+}
+#content1_2{
+	;
+}
+#content2{
+	width: 500px;
+	height: 290px;
+	margin: 10px;
+	overflow-y: auto;
+}
+#content3{
+	width: 600px;
+	height: 650px;
+	overflow-y:scroll;
+	overflow-x: hidden;
+}
+#content3 img{
+	width: 560px;
+	height: 300px;
+}
+
+#content3 audio{
+	margin-left: 130px;
+	margin-bottom: 30px;
+}
+
+#content3 h5{
+	display: none;
+	background-image: url(./images/bg03.jpg);
+	background-size: 100% 100%;
+	margin-top: 0;
+	height: 300px;
+	width: 560px;
+	padding: 25px;	
+}
+
+#content3 #content5:hover h3{
+	color:brown;
+	
+}
+#content4{
+	width: 580px;
+	height: 640px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+}
+#content4 img{
+	width: 150px;
+	height: 150px;
+
+}
+#content4 img:active{
+	;
+}
+#content5{
+	 
+	width:fit-content;
+	margin: 0 auto;
+}
+#content6{
+	width: 560px;
+	height: 640px;
+}
+#content7{
+	width: 580px;
+	height: 640px;
+	overflow-y:scroll;
+	overflow-x: hidden;
+}
+#content7 img{
+	width: 440px;
+	margin: 10px auto;
+}
+
+#content8{
+	width: 580px;
+	height: 640px;
+	overflow-x: hidden;
+}
+#content8 img{
+	width:560px;
+}
+#content9{
+	width: 580px;
+	height: 640px;
+	background-image: url(./images/img006.jpg);
+	background-position: -320px ;
+	filter: grayscale(20%);
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+}
+#content9 img{
+	position: relative;
+	height: 80px;
+	width: 80px;
+	border-radius: 60%;
+	margin-top: 50px;
+	margin-left: 0;
+	left: 90px;
+}
+#content9 h4{
+	background-image: none;
+	margin: 0 auto;
+	padding: 0;
+	width: fit-content;
+	height:fit-content;
+}
+#trailhero{
+	background-image: url(./images/img002.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	height:300px;
+	margin-left: 240px;
+	margin-right: 100px;
+	margin-bottom: 0;
+}
+#trailhero2{
+	background-image: url(trail.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	height:300px;
+	margin-left: 170px;
+	margin-bottom: 0;
+}
+#sqhl{
+	background-image: url(sqhl.jpg);
+	margin-bottom: 20px;
+	margin-left: 70px;
+	height:500px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	}
+
+
+	.nivoSlider {   /*轮换图片的大小*/
+	position: relative;
+	width: 500px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.nivoSlider .slide{
+	width: 500px;
+	height: 300px;
+	position: absolute;
+}
+
+#mp3{
+	height: 50px;
+	width: 50px;
+	left: 700px;
+	background-image: url(./images/img501.jpg);
+	background-size: 120% 120%;
+	background-position: center;
+	position:relative;
+	margin-top: -360px;
+	border-radius: 70%;
+	filter: drop-shadow(0.25rem 0.25rem 0.2rem rgb(66, 66, 68));
+	animation: small 0.3s;
+	animation-fill-mode:forwards;
+	animation-timing-function:linear;
+	z-index: 20;
+}
+
+#mp3:hover{
+	animation: big 0.3s !important;
+	animation-fill-mode:forwards !important;
+	/*之前用js改css样式后hover失效 百度后说是优先级啥的 加上important后hover
+	就不会失效了https://www.gxlcms.com/JavaScript-238172.html*/
+}
+
+#mp3_page{
+	background-image: url(./images/img005.jpg);
+	height: 38px;
+	width: 130px;
+	overflow: hidden;
+	background-size:cover;
+	background-position:middle;
+	position:relative;
+	border-radius: 10%;
+}
+#mp3_hide{
+	position:relative;
+	height: 38px;
+	width: 130px;
+	left: 610px;
+	margin-top: -42px;
+	overflow: hidden;
+}
+#mp3_title{
+	position: relative;
+	margin-top: 7px;
+	height: 29px;
+	width: 90px;
+	padding: 4px;
+	font: size 2px;
+	text-align: center;
+	filter: drop-shadow(0.25rem 0.25rem 0.2rem rgb(66, 66, 68));
+}
+ 
+ 
+@keyframes big {
+    0%      {    }
+    100%    {   transform:scale(1.05);}
+}
+
+@keyframes small {
+    0%      {   transform:scale(1.05);  }
+    100%    {  }
+}
+
+@keyframes lines {
+    0%      {  transform:scale(1.05);  }
+    50%    {  transform:scale(1); }
+	100%{ transform:scale(1.05);}
+}
+
+@keyframes rotate {
+	0%{transform:rotate(0deg);}
+   100%{
+   transform:rotate(360deg);
+   }
+}
+@-webkit-keyframes move_rotate{
+	0%{
+	-webkit-transform:rotate(0deg);
+	}
+	25%{
+	-webkit-transform:rotate(90deg);
+	}
+	50%{
+	-webkit-transform:rotate(180deg);
+	}
+	75%{
+	-webkit-transform:rotate(270deg);
+	}
+	100%{
+	-webkit-transform:rotate(360deg);
+	}
+ }
+ @keyframes move_rotate{
+	0%{
+	transform:rotate(0deg);
+	}
+	25%{
+	transform:rotate(90deg);
+	}
+	50%{
+	transform:rotate(180deg);
+	}
+	75%{
+	transform:rotate(270deg);
+	}
+	100%{
+	transform:rotate(360deg);
+	}
+ } 
